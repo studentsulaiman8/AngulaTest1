@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+
+p{
+  border: 5px;
+  font-size: 20px;
+  padding: 10px;
+  width: content-box;
+  color: indigo;
+}
+
+button {
+  border: 5px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 23px;
+  margin: 6px;
+  display: contents;
+}
+
+input {
+  font-size: 15px;
+  padding: 10px;
+  margin: 6px;
+  border-color: black;
+
+}
+
+li {
+  border: 5px;
+  font-size: 25px;
+  padding: 10px;
+  margin: 6px;
+  align-items: normal;
+  justify-content: right;
+}
+
+h1{
+  border: 5px;
+  font-size: 28px;
+  padding: 10px;
+  margin: 6px;
+}
+ h2 {
+   border: 5px;
+   font-size: 30px;
+   padding: 10px;
+   margin: 6px;
+ }
+
+ p {
+   border: 5px;
+   font-size: 20px;
+   padding: 10px;
+   margin: 6px;
+ }

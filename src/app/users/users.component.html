@@ -1,0 +1,28 @@
+<div class="column">
+    <div class="col xs 5">
+
+<h1>{{input}}</h1>
+<h2>{{text}}</h2>
+
+<input type="text" [(ngModel)]="text" [disabled]="isBoolean">
+<button type="button" class="btn btn-primary" (click)="isBoolean = !isBoolean">Click Me</button>
+
+<ul>
+  <li *ngFor="let user of users" class="row-sm-3">{{user}}</li>
+</ul>
+      <div class="col-md-3">
+      <input type="number" class="col-sm-3" [(ngModel)]="num1">
+      <input type="number" class="col-sm-3" [(ngModel)]="num2">
+      <input type="number" class="col-md-3" [(ngModel)]="num3">
+      <button type="button" class="btn btn-success" (click)="Sum()">Add <span class="badge">+</span></button>
+      <button type="button" class="btn btn-warning" (click)="Subtract()">Subtract <span class="badge">-</span></button>
+      <button type="button" class="btn btn-info" (click)="Multiply()">Multiply <span class="badge">*</span></button>
+      <button type="button" class="btn btn-danger" (click)="divide()">Divide <span class="badge">/</span></button>
+      <button type="button" class="btn btn-primary" (click)="Average()">Average <span class="badge">avg</span></button>
+
+      <p>Results: <span class="badge">=</span> {{result}} </p>
+      </div>
+
+</div>
+</div>
+
